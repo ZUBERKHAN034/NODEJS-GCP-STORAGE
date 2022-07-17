@@ -1,7 +1,7 @@
 const { Storage } = require('@google-cloud/storage');
 const { format } = require("util")
 
-const GCP_KEY_FILE_NAME = 'google-cloud-key.json';
+const GCP_KEY_FILE_NAME = 'google-cloud-storage-key.json';
 const GCP_PROJECT_ID = 'qwiklabs-gcp-02-aa5857463c67';
 const GCP_BUCKET_NAME = "bucket-for-nodejs";
 
